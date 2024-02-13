@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200&family=Cairo:wght@200;300;400&family=Poppins:wght@200&display=swap');
+*{
+    font-family: 'Cairo', sans-serif;
+}
+/*navbar*/
+.navbar{
+    background-color: #017DBF !important;
+}
+/*carousel*/
+.carousel-item img{
+    height: 100vh;
+}
+.myicon{
+    color: #017DBF;
+    font-size: 30px;
+}
+.carousel-caption{
+    background-color: rgba(151, 194, 244,4);
+    border-radius: 20px;
+    bottom: 80px;
+    padding: 50px;
+    
+}
+ .carousel-caption h2{
+    font-size: 45px;
+    margin-bottom: 30px;
+} 
+.carousel-caption p{
+    font-size: 20px;
+} 
+
+.carousel-caption:hover{
+    background-color:  rgba(151, 194, 244,0.4);;
+    transition: ease .7s;
+}
+.btn-dark:hover{
+    background-color: crimson;
+    border-radius: 20px;
+    transition: 1s ease all;
+}
+.carousel-indicators button{
+   width: 20px !important;
+   height: 20px !important;
+   border-radius: 50%;
+   background-color: #017DBF !important;
+
+}
+.carousel-indicators button:hover{
+    background-color: crimson !important;
+
+
+}
+
+/*products*/
+
+.text-header{
+    border-bottom: crimson solid 5px;
+}
+.btn-primary{
+    background-color: #017DBF;
+}
+.btn-primary:hover{
+    background-color: crimson;
+    border-radius: 20px;
+    transition: 1s ease all;
+}
+.card{
+    overflow: hidden;
+}
+.card img{
+    height: 300px;
+    width: 100%;
+}
+.card img:hover{
+    transform: scale(1.1);
+    transition: ease all 1s;
+}
+
+/*offcanvas*/
+
+.offcanvas-img{
+    width: 250px !important;
+    height: 300px !important;
+}
+
+.offcanvas-img:hover{
+    transform: skew(-10deg);
+    transform: ease all 1s;
+}
+.offcanv-price{
+    color: #017DBF;
+    font-weight: bold;
+}
+.offcanv-header{
+    color: crimson;
+}
+
+
+/*general*/
+.blue{
+    color: #017DBF;
+}
+/* card code*/
+
+.bluecimon{
+    color: #017DBF;
+}
+.bluecimon:hover{
+    color: crimson;
+    transition: 1s ease all;
+    cursor: pointer;
+}
+
+/* contactus code */
+.contact{
+    height: 60vh;
+    background:url(../images/contact.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.inputcontact{
+
+    border-radius:0px !important;
+}
+.contact button{
+    width: 150px !important;
+    border-radius: 20px 0px 0px 20px !important;
+}
+
+/* bestselling  */
+
+.bestselling img:hover{
+
+    transform: rotate(5deg) scale(1.1);
+    transition: ease all 1s;
+
+}
+
+/* contract */
+
+.contract h5{
+    color: crimson;
+}
+.accordion .accordion-button{
+    background-color: #017DBF;
+    color: white;
+}
+
+.accordion-button::after{
+    display: none;
+}
+
+/* services */
+ #services{
+margin-top: 150px !important;
+
+}
+/* footer */
+
+footer{
+    background-color: #017DBF;
+}
+
+
+
+/* scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #017DBF; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
